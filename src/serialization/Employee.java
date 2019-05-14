@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Employee implements Serializable {
     private String name;
-    private String address;
+    private transient String address;
     private transient int age; // not serialization
 
     public Employee(String name, String address, int age) {
