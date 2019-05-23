@@ -26,10 +26,6 @@ public class Run {
             objectInputStream.close();
             if(deserializeEmp!=null)
             System.out.println(deserializeEmp.toString());
-
-
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }
